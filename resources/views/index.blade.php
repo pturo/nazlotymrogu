@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Na Złotym Rogu - Landing Page</title>
+    <title>Apteka Na Złotym Rogu</title>
 
     <!-- Boxicons -->
     <link
@@ -28,9 +28,6 @@
 
       <nav class="navbar">
         <a href="#home" class="active">Strona główna</a>
-        <a href="#services">Usługi</a>
-        {{-- <a href="#blog">Blog</a> --}}
-        <a href="#contact">Kontakt</a>
       </nav>
     </header>
 
@@ -96,122 +93,6 @@
           </p>
         </div>
       </div>
-    </section>
-
-    <!-- services section design -->
-    <section class="services" id="services">
-      <div class="services-content">
-        <h1>Nasze usługi</h1>
-        <p>
-          Usługi, które wykonujemy dla naszych klientów.
-        </p>
-      </div>
-      <div class="services-list">
-        <div class="service-card">
-          <img src="{{ asset('img/service.jpg') }}" alt="" />
-          <div class="card-content">
-            <h1>Porady zdrowotne</h1>
-            <p>
-              Nasi wykwalifikowani farmaceuci swoją wiedzą oraz doświadczeniem
-              pomogą klientom w odpowiednim doborze leku.
-            </p>
-            <a href="#" class="btn">Czytaj więcej</a>
-          </div>
-        </div>
-        <div class="service-card">
-          <img src="{{ asset('img/service.jpg') }}" alt="" />
-          <div class="card-content">
-            <h1>Realizacja zamówień</h1>
-            <p>
-              Istnieje możliwość zamówienia leków w naszej aptece oraz ich
-              osobisty odbiór, dzięki czemu unikniemy długich kolejek.
-            </p>
-            <a href="#" class="btn">Czytaj więcej</a>
-          </div>
-        </div>
-        <div class="service-card">
-          <img src="{{ asset('img/service.jpg') }}" alt="" />
-          <div class="card-content">
-            <h1>Realizacja szczepień</h1>
-            <p>
-              W naszej aptece realizujemy również szczepienia na choroby
-              zakaźne oraz epidemiologiczne, w tym na COVID-19.
-            </p>
-            <a href="#" class="btn">Czytaj więcej</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- blog section design -->
-    {{-- <section class="blog" id="blog">
-      <div class="blog-content">
-        <h1>Nasz blog</h1>
-        <p>
-            Zapraszamy naszych klientów do czytania naszych wpisów na blogu.
-            Tam zamieszczamy artykuły na temat zdrowia, prawidłowego stosowania
-            leków oraz sposoby dbania o dobre samopoczucie.
-        </p>
-      </div>
-      <div class="blog-list">
-        <div class="blog-card">
-          <img src="{{ asset('img/service.jpg') }}" alt="" />
-          <div class="card-content">
-            <h1>Post 1</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-              illum!
-            </p>
-            <a href="#" class="btn">Czytaj więcej</a>
-          </div>
-        </div>
-        <div class="blog-card">
-          <img src="{{ asset('img/service.jpg') }}" alt="" />
-          <div class="card-content">
-            <h1>Post 2</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-              illum!
-            </p>
-            <a href="#" class="btn">Czytaj więcej</a>
-          </div>
-        </div>
-        <div class="blog-card">
-          <img src="{{ asset('img/service.jpg') }}" alt="" />
-          <div class="card-content">
-            <h1>Post 3</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-              illum!
-            </p>
-            <a href="#" class="btn">Czytaj więcej</a>
-          </div>
-        </div>
-      </div>
-    </section> --}}
-
-    <!-- contact section design -->
-    <section class="contact" id="contact">
-      <h1>Skontaktuj się z nami!</h1>
-
-      <form action="#">
-        <div class="input-box">
-          <input type="text" placeholder="Imię" />
-          <input type="email" placeholder="E-mail" />
-        </div>
-        <div class="input-box">
-          <input type="number" placeholder="Telefon" />
-          <input type="text" placeholder="Temat" />
-        </div>
-        <textarea
-          name=""
-          id=""
-          cols="30"
-          rows="10"
-          placeholder="Wiadomość"
-        ></textarea>
-        <input type="submit" value="Wyślij wiadomość" class="btn" />
-      </form>
     </section>
 
     <!-- google map design -->
