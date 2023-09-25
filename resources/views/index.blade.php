@@ -86,10 +86,9 @@
         </div>
         <div class="perk-card">
           <a href="#"><i class="bx bx-check-shield"></i></a>
-          <h1>Zakupy online</h1>
+          <h1>Recepty</h1>
           <p>
-            Stawiamy na wygodę naszych klientów, oferując możliwość
-            zamówienia leków przez telefon lub internet.
+            Realizujemy leki recepturowe. Posiadamy też Epruf.
           </p>
         </div>
       </div>
