@@ -224,6 +224,7 @@ a:hover {
 }
 
 .perk-card {
+    width: 33%;
     border-radius: 2rem;
     background: var(--second-bg-color);
     display: flex;
@@ -257,6 +258,40 @@ a:hover {
     margin: 3rem 1.5rem 3rem 0;
 }
 
+.opening-hours {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.opening-hours h1 {
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+.opening-hours .opening-card {
+    width: 100%;
+    border-radius: 10px;
+    background: var(--main-color);
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.opening-card .opening-row {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.opening-row p {
+    font-size: 2rem;
+    color: var(--bg-color);
+}
+
 .footer {
     display: flex;
     justify-content: space-between;
@@ -274,7 +309,8 @@ a:hover {
 }
 
 .footer-info {
-    display: block;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     text-align: center;
     margin: 1rem 0 1rem 0;
@@ -282,6 +318,14 @@ a:hover {
 
 .footer-info h1 {
     font-size: 2.5rem !important;
+}
+
+.footer-info a i {
+    font-size: 1.5rem;
+}
+
+.footer-info a {
+    font-size: 1.5rem;
 }
 
 .footer-info p i {

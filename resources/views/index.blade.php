@@ -92,6 +92,39 @@
           </p>
         </div>
       </div>
+      <div class="opening-hours">
+        <h1>Godziny otwarcia</h1>
+        <div class="opening-card">
+            <div class="opening-row">
+                <p>poniedziałek</p>
+                <p>08:00-20:00</p>
+            </div>
+            <div class="opening-row">
+                <p>wtorek</p>
+                <p>08:00-20:00</p>
+            </div>
+            <div class="opening-row">
+                <p>środa</p>
+                <p>08:00-20:00</p>
+            </div>
+            <div class="opening-row">
+                <p>czwartek</p>
+                <p>08:00-20:00</p>
+            </div>
+            <div class="opening-row">
+                <p>piątek</p>
+                <p>08:00-20:00</p>
+            </div>
+            <div class="opening-row">
+                <p>sobota</p>
+                <p>Zamknięte</p>
+            </div>
+            <div class="opening-row">
+                <p>niedziela</p>
+                <p>Zamknięte</p>
+            </div>
+        </div>
+      </div>
     </section>
 
     <!-- google map design -->
@@ -111,15 +144,16 @@
     <footer class="footer">
       <div class="footer-info">
         <h1>Apteka Na Złotym Rogu</h1>
-        <p><i class="bx bx-phone"></i> +48 666 249 584 / +48 32 241 37 09</p>
-        <p><i class="bx bx-world"></i> www.nazlotymrogu.pl</p>
-        <p><i class="bx bx-envelope"></i> apteka@nazlotymrogu.pl</p>
+        <a href="tel:+48666249584"><i class="bx bx-phone"></i> +48 666 249 584</a>
+        <a href="tel:+48322413709"><i class="bx bx-phone"></i> +48 32 241 37 09</a>
+        <a href="https://nazlotymrogu.pl/"><i class="bx bx-world"></i> www.nazlotymrogu.pl</a>
+        <a href="mailto:apteka@nazlotymrogu.pl"><i class="bx bx-envelope"></i> apteka@nazlotymrogu.pl</a>
         <p><i class="bx bx-map"></i> Centrum 1, ul. Wolności 78, 41-500 Chorzów</p>
         <p><i class="bx bx-check-circle"></i> NIP: 627-24-37-286</p>
       </div>
       <hr color="white">
       <div class="footer-text">
-        <p>Copyright &copy; 2023. Realizacja: <a href="https://digitalowa.pl" target="_blank">Agencja Digitalowa</a></p>
+        <p>Copyright &copy; 2023. Realizacja: Agencja <a href="https://digitalowa.pl" target="_blank">Digitalowa.pl</a></p>
       </div>
 
       <div class="footer-iconTop">
